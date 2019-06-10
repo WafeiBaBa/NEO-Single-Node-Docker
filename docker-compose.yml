@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  neo-privnet-cli-linux:
+    build: .
+    container_name: neo-privnet-cli
+    ports:
+      - 10002-10003:10002-10003
+    # restart: always
+    volumes:
+      - './chain-data:/app/Chain_001C151C'
+      - './logs:/app/ApplicationLogs_001C151C'
+      - './index:/app/Index_001C151C'
