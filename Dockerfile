@@ -8,4 +8,6 @@ RUN apt-get update && apt-get install -y \
 
 COPY ./neo-cli/ app/
 
+EXPOSE 10003
+
 CMD ["dotnet", "app/neo-cli.dll"]
