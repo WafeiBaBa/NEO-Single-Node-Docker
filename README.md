@@ -1,6 +1,6 @@
 # NEO-Single-Node-Docker
 
-This is a docker image of a private net on a single node running on neo-cli v2.10.2. 
+This is a docker image of a single-node private net running on neo-cli v2.10.2. 
 
 ### To use the image
 
