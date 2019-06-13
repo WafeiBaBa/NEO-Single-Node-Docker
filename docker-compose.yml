@@ -3,5 +3,6 @@ services:
   neo-privnet-cli-linux:
     build: .
     container_name: neo-privnet-cli
+    tty: 'true'
     ports:
       - 10002-10003:10002-10003
