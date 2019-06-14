@@ -5,8 +5,8 @@ This is a docker image of a single-node private net running on neo-cli v2.10.2.
 ### To use the image
 
 ```
-$ docker pull merlin217/neo-cli-privatenet
-$ docker run --name neo-cli-privatenet -it -p 10002-10003:10002-10003/tcp merlin217/neo-cli-privatenet
+$ docker pull merlin217/neo-cli-privatenet:2.10.2
+$ docker run --name neo-cli-privatenet -it -p 10002-10003:10002-10003/tcp merlin217/neo-cli-privatenet:2.10.2
 ```
 
 ### To build the image yourself
